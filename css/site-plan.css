@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Fjalla+One|Fredericka+the+Great|Krub|Rye&display=swap';
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Krub|Fredericka+the+Great');
 
 :root {
-    --primary-color: #396E94;
-    --secondary-color: #E7C24F;
-    --accent1-color: #A43312;
-    --accent2-color: white;
-    --heading-font: font-family: 'Fjalla One', sans-serif
-    --paragraph-font: font-family: 'Krub', sans-serif
+    --primary-color: #6a8f60 ;
+    --secondary-color:  #a9acaf;
+    --accent1-color: #3b6668;
+    --accent2-color: #b8d4e3 ;
+    --accent3-color: #593E3E;
+    --heading-font: "Fjalla One", sans-serif;
+    --paragraph-font: "Krub", Arial, sans-serif;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 body {
     max-width: 900px;
     margin: 0 auto;
-    background-color: white;
+    background-color: var(--accent2-color);
     padding: 1em
 }
 
@@ -37,17 +38,18 @@ h6 {
 header {
     padding: 1em;
     text-align: center;
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     background-color:
 }
 
 header>h1 {
+    font-family: "Fredericka the Great" ;
     color:
 }
 
 p {
     font-family: var(--paragraph-font);
-    color: ;
+    color: var(--accent3-color);
     padding: 1em
 }
 
@@ -59,11 +61,11 @@ p {
 }
 
 .colors th {
-    background-color: #999
+    background-color: #9999
 }
 
 .colors td {
-    width: 25%;
+    width: 20%;
     height: 3em
 }
 
@@ -81,6 +83,10 @@ p {
 
 .accent2 {
     background-color: var(--accent2-color)
+}
+
+.accent3 {
+    background-color: var(--accent3-color)
 }
 
 nav {
