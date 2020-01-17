@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Fjalla+One|Fredericka+the+Great|Krub|Rye&display=swap';
 
 :root {
     --primary-color: #396E94;
     --secondary-color: #E7C24F;
     --accent1-color: #A43312;
     --accent2-color: white;
-    --heading-font: "IM Fell French Canon SC";
-    --paragraph-font: Lato, Helvetica, sans-serif
+    --heading-font: font-family: 'Fjalla One', sans-serif
+    --paragraph-font: font-family: 'Krub', sans-serif
 }
 
 html {
