@@ -21,23 +21,24 @@ html {
 header {
     background-color: gainsboro;
     font-size: 20px;
-    position: fixed;
+    /*position: fixed;
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    margin: 0;
+    float: left; */
     /* padding order: top right bottom left */
     padding: 0px 10px 0px 0px; 
-    margin: 0;
-    float: left;
+    
     
 }
 li {
     display: inline;
 }
     
-.a {
+/*.a {
     display: flex;
-}
+}*/
 
 footer {
     left: 0px;
