@@ -21,13 +21,17 @@ html {
 header {
     background-color: gainsboro;
     font-size: 20px;
-    /*position: fixed;
+    /* Tried to get fixed nav and header
+
+    position: fixed;
     display: flex;
     flex-direction: row;
     list-style-type: none;
     margin: 0;
-    float: left; */
-    /* padding order: top right bottom left */
+    float: left; 
+    
+    */
+    /* padding order: top right bottom left  (personal reminder)*/
     padding: 0px 10px 0px 0px; 
     
     
