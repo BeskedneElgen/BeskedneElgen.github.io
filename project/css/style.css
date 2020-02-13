@@ -1,26 +1,26 @@
-header,
-main,
-footer {
-max-width: 960px;
-align-content: center;
-margin: 0 auto 0 auto;
-background-color: #b8d4e3;
-font-size: 16px;
-padding: 10px;
-}
-
-header.img {
-    border-radius: 40px;
-}
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Krub|Fredericka+the+Great');
 
 html {
     background-color: #6a8f60;
     scroll-behavior: smooth;
 }
 
-header {
+header,
+main,
+footer {
+    max-width: 960px;
+    align-content: center;
+    margin: 0 auto 0 auto;
+    background-color: #b8d4e3;
+    font-size: 16px;
+    padding: 10px;
+}
+
+nav{
     background-color: gainsboro;
-    font-size: 20px;
+    max-width: 960px;
+    font-size: 2rem;
+    font-family: "Fjalla One", sans-serif ;
     /* Tried to get fixed nav and header
 
     position: fixed;
@@ -32,19 +32,78 @@ header {
     
     */
     /* padding order: top right bottom left  (personal reminder)*/
-    padding: 0px 10px 0px 0px; 
-    
-    
+    padding: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
 }
-li {
+
+nav li{
     display: inline;
+    padding: 5rem;
 }
-    
+
+
+body {
+	background-color:#6a8f60;
+	padding: 0;
+	margin: 0;
+    font-size: 16px;
+    font-family: "Krub", Arial, sans-serif;
+}
+
+header {
+	background-color: gainsboro;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 125px;
+    height: auto;
+    border-radius: 60px;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.heading h1 {
+	font-size: 2rem;
+	color: navy;
+	margin: 0;
+}
+
+.motto {
+	font-style: italic;
+	color: #3b6668;
+	font-size: 1.25rem;
+	letter-spacing: 1.5pt;
+}
+ 
 /*.a {
     display: flex;
 }*/
 
 footer {
-    left: 0px;
+    max-width: 960px;
+    /* left: 0px; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+footer p {
+    justify-content: left;
+}
+
+.social{
+    display: flex;
+    /* max-width: 960px; */
+    align-content: center;
 }
 
